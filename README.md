@@ -1,13 +1,13 @@
-# Video Streaming Platform – Identity Service
+# Streamix – Identity Service
 
-![Build](https://img.shields.io/github/actions/workflow/status/mzilin/vsp-auth-identity/build.yml?label=Build&logo=github&logoColor=white&style=flat)
-![Coverage](https://img.shields.io/codecov/c/github/mzilin/vsp-auth-identity?label=Coverage&logo=codecov&logoColor=white&style=flat)
+![Build](https://img.shields.io/github/actions/workflow/status/mzilin/streamix-auth-identity/build.yml?label=Build&logo=github&logoColor=white&style=flat)
+![Coverage](https://img.shields.io/codecov/c/github/mzilin/streamix-auth-identity?label=Coverage&logo=codecov&logoColor=white&style=flat)
 ![Status](https://img.shields.io/badge/status-in_progress-yellow?label=Status)
 
 
-This repository contains the **Identity Service** microservice for the **Video Streaming Platform**, deployed in the **Auth** cluster. It is responsible for user authentication as well as managing user passwords, passcodes and reset tokens.
+This repository contains the **Identity Service** microservice for the **Streamix** (Video Streaming Platform), deployed in the **Auth** cluster. It is responsible for user authentication as well as managing user passwords, passcodes and reset tokens.
 
-For a complete system overview and links to all microservices, please refer to the [Microservices Hub Repository](https://github.com/mzilin/vsp-microservices-hub).
+For a complete system overview and links to all microservices, please refer to the [Microservices Hub Repository](https://github.com/mzilin/streamix-microservices-hub).
 
 
 ## Table of Contents
@@ -103,12 +103,12 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/mzilin/vsp-auth-identity.git
+    git clone https://github.com/mzilin/streamix-auth-identity.git
     ```
 
 2. Switch to the `main` branch:
     ```bash
-    cd vsp-auth-identity
+    cd streamix-auth-identity
     ```
 
 3. Build the project and run tests:

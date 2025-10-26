@@ -20,12 +20,12 @@ spring:
       - optional:configserver:discovery://config-server
       - optional:file:./env.properties
   datasource:
-    url: ${DB_URI}
-    driverClassName: org.postgresql.Driver
+    url: ${DB_URL}
+    driverClassName: ${DB_DRIVER_CLASS}
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database-platform: ${DB_DIALECT}
     hibernate:
       ddl-auto: update
   rabbitmq:
@@ -78,4 +78,4 @@ logging:
     root: INFO
     org.springframework.web: DEBUG
     org.springframework.security: DEBUG
-    com.mariuszilinskas.vsp: DEBUG
+    com.mariuszilinskas.streamix: DEBUG
